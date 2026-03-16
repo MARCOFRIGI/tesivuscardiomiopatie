@@ -1,7 +1,6 @@
 Pipeline di "Analisi delle VUS nelle Cardiomiopatie"
 Tesi: "Oltre la Classificazione Standard: Un Approccio Integrato alla Valutazione delle Varianti di Significato Incerto nelle Cardiomiopatie" Autore: Marco Frigione Istituzione: Università Vita-Salute San Raffaele, Milano Supervisori: Prof. Giuseppe Banfi, Prof.ssa Chiara Di Resta, Prof. Giovanni Peretto
 
-Panoramica
 Questa repository contiene la pipeline di analisi utilizzata nella mia tesi per studiare 42.726 varianti missenso in 33 geni associati alle cardiomiopatie. La pipeline esegue un clustering GMM non supervisionato nello spazio dei punteggi AlphaMissense x REVEL e valida il gradiente di rischio risultante attraverso evidenze biologiche, popolazionali e temporali indipendenti.
 
 La pipeline è interamente in locale. Durante l'esecuzione non vengono usate API. A parità di file di input, tutti gli output sono riproducibili.
